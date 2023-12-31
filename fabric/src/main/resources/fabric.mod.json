@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "neoportalsfixer",
+  "version": "${version}",
+
+  "name": "NeoPortalsFixer",
+  "description": "A mod which fixes plugin's potential issues for NeoPortals.",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "neoportalsfixer.mixins.json",
+    "neoportalsfixer-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "minecraft": ">=1.20.1"
+  }
+}
