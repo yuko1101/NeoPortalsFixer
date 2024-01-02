@@ -3,7 +3,6 @@ package io.github.yuko1101.neoportalsfixer.fabric;
 import io.github.yuko1101.neoportalsfixer.NeoPortalsFixer;
 import io.github.yuko1101.neoportalsfixer.portal.DummyPortalBlock;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.registry.Registries;
