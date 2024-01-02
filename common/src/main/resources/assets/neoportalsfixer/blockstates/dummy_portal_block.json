@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "neoportalsfixer:block/dummy_portal_block"
+    }
+  }
+}

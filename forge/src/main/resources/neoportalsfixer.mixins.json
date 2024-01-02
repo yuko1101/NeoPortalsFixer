@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.yuko1101.neoportalsfixer.mixin.forge",
+  "package": "io.github.yuko1101.neoportalsfixer.forge.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

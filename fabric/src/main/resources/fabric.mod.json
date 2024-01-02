@@ -12,7 +12,11 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "client": [
+      "io.github.yuko1101.neoportalsfixer.fabric.NeoPortalsFixerFabric"
+    ]
+  },
   "mixins": [
     "neoportalsfixer.mixins.json",
     "neoportalsfixer-common.mixins.json"
