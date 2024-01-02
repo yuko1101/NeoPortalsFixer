@@ -9,8 +9,4 @@ public class DummyPortalBlock extends Block {
     public DummyPortalBlock(Settings settings) {
         super(settings);
     }
-
-    public DummyPortalBlock() {
-        super(Settings.create());
-    }
 }

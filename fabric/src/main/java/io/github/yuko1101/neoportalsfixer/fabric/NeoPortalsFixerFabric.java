@@ -1,6 +1,7 @@
 package io.github.yuko1101.neoportalsfixer.fabric;
 
 import io.github.yuko1101.neoportalsfixer.NeoPortalsFixer;
+import io.github.yuko1101.neoportalsfixer.portal.DummyNetherPortalBlock;
 import io.github.yuko1101.neoportalsfixer.portal.DummyPortalBlock;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -12,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class NeoPortalsFixerFabric implements ClientModInitializer {
 
     final static Block DUMMY_PORTAL_BLOCK = Registry.register(Registries.BLOCK, new Identifier(NeoPortalsFixer.MOD_ID, DummyPortalBlock.ID), new DummyPortalBlock(FabricBlockSettings.create()));
+    final static Block DUMMY_NETHER_PORTAL_BLOCK = Registry.register(Registries.BLOCK, new Identifier(NeoPortalsFixer.MOD_ID, DummyNetherPortalBlock.ID), new DummyNetherPortalBlock(FabricBlockSettings.create()));
 
     @Override
     public void onInitializeClient() {

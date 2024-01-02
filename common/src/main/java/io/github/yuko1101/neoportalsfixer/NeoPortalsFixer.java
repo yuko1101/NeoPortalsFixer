@@ -13,4 +13,11 @@ public class NeoPortalsFixer {
 	public static Block getDummyPortalBlock() {
 		throw new AssertionError();
 	}
+
+	@ExpectPlatform
+	public static Block getDummyNetherPortalBlock() {
+		throw new AssertionError();
+	}
+
+
 }

@@ -4,6 +4,7 @@
   "package": "io.github.yuko1101.neoportalsfixer.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "MixinEntity"
   ],
   "client": [
     "MixinGui"
